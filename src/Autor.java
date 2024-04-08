@@ -26,4 +26,9 @@ public class Autor {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
+
+    @Override
+    public String toString() {
+        return nome;
+    }
 }

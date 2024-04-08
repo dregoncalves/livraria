@@ -9,9 +9,6 @@ public class Livro {
         this.autor = autor;
     }
 
-    public Livro() {
-    }
-
     public String getNome() {
         return nome;
     }
@@ -52,6 +49,14 @@ public class Livro {
         this.autor = autor;
     }
 
+    public boolean aplicaDescontoDe(double porcentagem)  {
+        if (porcentagem < 0.3) {
+            return false;
+        }
+        this.valor -= this.valor * porcentagem;
+        return true;
+    }
+
     public void mostrarDetalhes() {
         System.out.println("Mostrando detalhes do livro ");
         System.out.println("Nome: " + nome);
@@ -60,4 +65,5 @@ public class Livro {
         System.out.println("ISBN: " + isbn);
         System.out.println("--");
     }
+
 }
