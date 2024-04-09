@@ -1,4 +1,4 @@
-public abstract class Livro {
+public class Livro implements Produto{
     private String nome;
     private String descricao;
     private double valor;
@@ -29,6 +29,11 @@ public abstract class Livro {
         return valor;
     }
 
+    @Override
+    public boolean aplicaDescontoDe(double v) {
+        return false;
+    }
+
     public void setValor(double valor) {
         this.valor = valor;
     }
@@ -49,7 +54,6 @@ public abstract class Livro {
         this.autor = autor;
     }
 
-    public abstract boolean aplicaDescontoDe(double porcentagem);
 
 
     public void mostrarDetalhes() {
@@ -60,5 +64,4 @@ public abstract class Livro {
         System.out.println("ISBN: " + isbn);
         System.out.println("--");
     }
-
 }

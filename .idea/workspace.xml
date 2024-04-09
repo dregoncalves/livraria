@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c836d97-ea5a-4850-bfdd-a51a15eb6ac1" name="Changes" comment="Encapsulamento">
-      <change afterPath="$PROJECT_DIR$/src/MiniLivro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8c836d97-ea5a-4850-bfdd-a51a15eb6ac1" name="Changes" comment="Classes e métodos abstratos">
+      <change afterPath="$PROJECT_DIR$/src/Editora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Promocional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Revista.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CadastroDeLivros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CadastroDeLivros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CarrinhoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarrinhoDeCompras.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ebook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Livro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LivroFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LivroFisico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MiniLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiniLivro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RegistroDeVendas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegistroDeVendas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RegrasDeDesconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegrasDeDesconto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,7 @@
       <list>
         <option value="HTTP Request" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -37,14 +39,12 @@
     &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="32110679-189d-4196-a8b6-b8d6a38ed2e8" />
-        <option name="url" value="git@github.com:drezolis/livraria.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/drezolis/livraria.git",
+    "accountId": "64620b7b-e285-4d27-a2e9-80638dbfc16e"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -55,27 +55,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CadastroDeLivros.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Pessoa.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RegistroDeVendas.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RegrasDeDesconto.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CadastroDeLivros.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Pessoa.executor": "Run",
+    "Application.RegistroDeVendas.executor": "Run",
+    "Application.RegrasDeDesconto.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -102,8 +110,17 @@
       <workItem from="1712619956517" duration="3000" />
       <workItem from="1712629059527" duration="1712000" />
       <workItem from="1712661262665" duration="1490000" />
-      <workItem from="1712665988049" duration="2667000" />
+      <workItem from="1712665988049" duration="7296000" />
     </task>
+    <task id="LOCAL-00001" summary="Classes e métodos abstratos">
+      <option name="closed" value="true" />
+      <created>1712668927360</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712668927360</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +139,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Encapsulamento" />
-    <option name="LAST_COMMIT_MESSAGE" value="Encapsulamento" />
+    <MESSAGE value="Classes e métodos abstratos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classes e métodos abstratos" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
