@@ -1,4 +1,4 @@
-public class Livro {
+public abstract class Livro {
     private String nome;
     private String descricao;
     private double valor;
@@ -49,13 +49,8 @@ public class Livro {
         this.autor = autor;
     }
 
-    public boolean aplicaDescontoDe(double porcentagem)  {
-        if (porcentagem < 0.3) {
-            return false;
-        }
-        this.valor -= this.valor * porcentagem;
-        return true;
-    }
+    public abstract boolean aplicaDescontoDe(double porcentagem);
+
 
     public void mostrarDetalhes() {
         System.out.println("Mostrando detalhes do livro ");

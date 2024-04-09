@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c836d97-ea5a-4850-bfdd-a51a15eb6ac1" name="Changes" comment="Encapsulamento">
+      <change afterPath="$PROJECT_DIR$/src/MiniLivro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CadastroDeLivros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CadastroDeLivros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CarrinhoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarrinhoDeCompras.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ebook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LivroFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LivroFisico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RegistroDeVendas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegistroDeVendas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegrasDeDesconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegrasDeDesconto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTTP Request" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,6 +58,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.CadastroDeLivros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Pessoa.executor&quot;: &quot;Run&quot;,
     &quot;Application.RegistroDeVendas.executor&quot;: &quot;Run&quot;,
     &quot;Application.RegrasDeDesconto.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -93,6 +101,8 @@
       <workItem from="1712617811263" duration="49000" />
       <workItem from="1712619956517" duration="3000" />
       <workItem from="1712629059527" duration="1712000" />
+      <workItem from="1712661262665" duration="1490000" />
+      <workItem from="1712665988049" duration="2667000" />
     </task>
     <servers />
   </component>
