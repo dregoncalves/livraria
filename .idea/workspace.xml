@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c836d97-ea5a-4850-bfdd-a51a15eb6ac1" name="Changes" comment="Encapsulamento">
-      <change afterPath="$PROJECT_DIR$/src/CarrinhoDeCompras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LivroFisico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RegistroDeVendas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RegrasDeDesconto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Autor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CadastroDeLivros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CadastroDeLivros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarrinhoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarrinhoDeCompras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ebook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegistroDeVendas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegistroDeVendas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
@@ -54,25 +49,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CadastroDeLivros.executor": "Run",
-    "Application.RegistroDeVendas.executor": "Run",
-    "Application.RegrasDeDesconto.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CadastroDeLivros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RegistroDeVendas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RegrasDeDesconto.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -91,7 +86,13 @@
       <updated>1712580906716</updated>
       <workItem from="1712593008421" duration="29000" />
       <workItem from="1712593044809" duration="394000" />
-      <workItem from="1712593456565" duration="10698000" />
+      <workItem from="1712593456565" duration="11426000" />
+      <workItem from="1712615139104" duration="960000" />
+      <workItem from="1712616118383" duration="460000" />
+      <workItem from="1712616591998" duration="1192000" />
+      <workItem from="1712617811263" duration="49000" />
+      <workItem from="1712619956517" duration="3000" />
+      <workItem from="1712629059527" duration="1712000" />
     </task>
     <servers />
   </component>
