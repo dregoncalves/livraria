@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c836d97-ea5a-4850-bfdd-a51a15eb6ac1" name="Changes" comment="Classes e métodos abstratos">
+    <list default="true" id="8c836d97-ea5a-4850-bfdd-a51a15eb6ac1" name="Changes" comment="Pacotes">
+      <change afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/exception/AutorNuloException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/Autor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CadastroDeLivros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/CadastroDeLivros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarrinhoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/CarrinhoDeCompras.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Ebook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Editora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/Editora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Livro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LivroFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/LivroFisico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiniLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/MiniLivro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Promocional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Promocional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RegistroDeVendas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/RegistroDeVendas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RegrasDeDesconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/RegrasDeDesconto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Revista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Revista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/CarrinhoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/CarrinhoDeCompras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/RegistroDeVendas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/RegistroDeVendas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTTP Request" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -114,7 +105,9 @@
       <workItem from="1712629059527" duration="1712000" />
       <workItem from="1712661262665" duration="1490000" />
       <workItem from="1712665988049" duration="7296000" />
-      <workItem from="1712747690145" duration="1150000" />
+      <workItem from="1712747690145" duration="2926000" />
+      <workItem from="1712750638436" duration="134000" />
+      <workItem from="1712750789266" duration="2226000" />
     </task>
     <task id="LOCAL-00001" summary="Classes e métodos abstratos">
       <option name="closed" value="true" />
@@ -124,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712668927360</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Pacotes">
+      <option name="closed" value="true" />
+      <created>1712749214765</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712749214765</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +145,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Encapsulamento" />
     <MESSAGE value="Classes e métodos abstratos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classes e métodos abstratos" />
+    <MESSAGE value="Pacotes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pacotes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

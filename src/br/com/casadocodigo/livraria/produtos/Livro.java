@@ -1,6 +1,7 @@
 package br.com.casadocodigo.livraria.produtos;
 
 import br.com.casadocodigo.livraria.Autor;
+import br.com.casadocodigo.livraria.exception.AutorNuloException;
 
 public class Livro implements Produto {
     private String nome;
@@ -10,7 +11,11 @@ public class Livro implements Produto {
     private Autor autor;
 
     public Livro(Autor autor) {
+        if (autor == null){
+            throw new AutorNuloException("Selecione um Autor");
+        }
         this.autor = autor;
+        this.isbn = "000-00-00000-00-0";
     }
 
     public String getNome() {

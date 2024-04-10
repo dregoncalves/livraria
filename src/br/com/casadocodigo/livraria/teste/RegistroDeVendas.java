@@ -1,15 +1,18 @@
 package br.com.casadocodigo.livraria.teste;
 
 import br.com.casadocodigo.livraria.Autor;
-import br.com.casadocodigo.livraria.produtos.CarrinhoDeCompras;
-import br.com.casadocodigo.livraria.produtos.Ebook;
-import br.com.casadocodigo.livraria.produtos.LivroFisico;
+import br.com.casadocodigo.livraria.produtos.*;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 
 public class RegistroDeVendas {
     public static void main(String[] args) {
 
         Autor autor = new Autor();
         autor.setNome("Mauricio Aniche");
+
+        Livro livro = new LivroFisico(autor);
 
         LivroFisico fisico = new LivroFisico(autor);
         fisico.setNome("Test-Driven Development");
@@ -28,5 +31,21 @@ public class RegistroDeVendas {
         carrinho.adiciona(ebook);
 
         System.out.println("Total: " + carrinho.getTotal());
+
+        Produto[] produtos = carrinho.getProdutos();
+        for (int i = 0; i <= produtos.length; i++) {
+            try {
+                Produto produto = produtos[i];
+                if (produto != null) {
+                    System.out.println(produto.getValor());
+                }
+            } catch (ArrayIndexOutOfBoundsException e) {
+                System.out.println("deu exception no índice: " + i);
+            }
+        }
+
+        System.out.println("Foi executado");
+
     }
+
 }
